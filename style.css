@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
@@ -43,15 +44,23 @@ li{
 }
 
 main{
-    padding-top: 100px;
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-footer{
-    border: solid 2px black;
-    display: flex;
-    justify-content: space-around;
-    background-color: #0000001b;
-    padding: 10px;
+#
+
+
+.Button-a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 #contatos h2{
@@ -82,15 +91,40 @@ input, textarea{
     height: 25px;
 }
 
-#contato{
-    display: flex;
-    flex-wrap: wrap;
+a > img {
+    width: 40px;
+    margin-right: 5px;
 }
 
-footer section{
-    width: 100%;
-    flex-wrap: wrap;
+#seçaoContatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
-#copy{
-        
+
+footer{
+    border: solid 2px black;
+    background-color: #0000001b;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.libertinus-sans-regular {
+font-family: "Libertinus Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.libertinus-sans-bold {
+font-family: "Libertinus Sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.libertinus-sans-regular-italic {
+font-family: "Libertinus Sans", sans-serif;
+font-weight: 400;
+font-style: italic;
 }

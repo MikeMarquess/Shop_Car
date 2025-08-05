@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Loja de Carros</title>
 </head>
 <body>
     <header>
-        <h1>SHOP__CAR</h1>
+        <h1 class="libertinus-sans-bold">SHOP__CAR</h1>
         <nav>
             <ul>
                 <li><a href="#apresentação">Início</a></li>
@@ -20,10 +21,11 @@
         </nav>
     </header>
     <main>
-        <section id="apresentação"> 
-
+        <section>
+            <h1>Bem vindo a SHOP__CAR</h1>
             <article>
-                <h2>Bem-vindo à nossa loja de carros!</h2>
+
+                <h2 id="apresentação">Bem-vindo à nossa loja de carros!</h2>
                 <p>Oferecemos uma ampla variedade de veículos para atender às suas necessidades. Navegue por nossos produtos e entre em contato conosco para mais informações.</p>
             </article>
             <aside>
@@ -32,43 +34,77 @@
         </section>
 
         <section id="produtos"> 
-
-        </section>
-
-        <section id="formularios">
-
+            <h2>Nossos produtos</h2>
+            <div>
+                <article>
+                    <img src="imagens/Novoscarros.jpeg" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab molestiae ullam, hic officiis maiores culpa eius repellendus tempore accusantium cumque. Sit ab rerum eligendi officia debitis error dolores blanditiis.</p>
+                    <a href="#" class="Button-a">Comprar</a>
+                </article>
+                <article>
+                    <img src="imagens/Fiat.jpeg" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab molestiae ullam, hic officiis maiores culpa eius repellendus tempore accusantium cumque. Sit ab rerum eligendi officia debitis error dolores blanditiis.</p>
+                    <a href="#" class="Button-a">Comprar</a>
+                </article>
+                <article>
+                    <img src="imagens/Ferra.jpeg" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab molestiae ullam, hic officiis maiores culpa eius repellendus tempore accusantium cumque. Sit ab rerum eligendi officia debitis error dolores blanditiis.</p>
+                    <a href="#" class="Button-a">Comprar</a>
+                </article>
+                <article>
+                    <img src="imagens/car-4393990_1280.jpg" alt="">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab molestiae ullam, hic officiis maiores culpa eius repellendus tempore accusantium cumque. Sit ab rerum eligendi officia debitis error dolores blanditiis.</p>
+                    <a href="#" class="Button-a">Comprar</a>
+                </article>
+            </div>
         </section>
     </main>
     <footer id="Contato">
+        <div id ="seçaoContatos">
         <section id="contatos">
             <nav>
-                <h2>Contatos</h2>
+                <h2 class="libertinus-sans-bold">Contatos</h2>
                 <ul>
-                    <li><a style="color: rgb(14, 173, 14); " href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-                    <li><a style="color: red;" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><a style="color: blue;" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li>
+                        <a style="color: rgb(255, 20, 91); " href="#">
+                            <img src="imagens/youtube.png" alt="">YouTube</a>
+                    </li>
+                    <li>
+                        <a style="color: rgb(183, 0, 255);" href="#">
+                            <img src="imagens/instagram.png" alt="">Instagram</a>
+                    </li>
+                    <li>
+                        <a style="color: blue;" href="#"><img src="imagens/facebook.png" alt="">Facebook</a>
+                    </li>
                 </ul>
-            </nav>
-        </section>
-        <section id="mensagem">
-            <h2>Fale conosco</h2>
-            <div>
-                <form action="">
-                <input type="text" placeholder="Nome" required>
+                </nav>
+            </section>
+            <section id="mensagem">
+                <h2 class="libertinus-sans-bold">Fale conosco</h2>
+                <div>
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
 
-                <input required type="email" placeholder="Exemplo@gmail.com">
+                        <input required type="email" placeholder="Exemplo@gmail.com">
 
-                <input type="tel" placeholder="Seu telefone - (Opcional)">
+                        <input type="tel" placeholder="Seu telefone - (Opcional)">
 
-                <textarea placeholder="Deixe sua mensagem" required></textarea>
+                        <textarea placeholder="Deixe sua mensagem" required></textarea>
 
-                <input type="submit">
-                </form>
-            </div>
-        </section>
-        <section id="copy">
-            <p>&copy; Games Shop - Todos os direitos reservados - 2022</p>
-        </section>
+                        <input type="submit">
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div id="DireitosAutorais" class="libertinus-sans-regular-italic">
+            <section id="copy">
+                <p>&copy; SHop Car - Todos os direitos reservados - 2022</p>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
