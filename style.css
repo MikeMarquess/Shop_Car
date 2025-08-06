@@ -10,7 +10,7 @@ body{
 }
 
 header {
-    background-color: #7363de46;
+    background-color: #b1a7ed;
     color: rgb(0, 0, 0);
     padding: 10px 0;
     display: flex;
@@ -44,14 +44,67 @@ li{
 }
 
 main{
-padding-top: 100px;
-display: flex;
-flex-direction: column;
-align-items: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
-#
+#apresentação{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
 
+#apresenta{
+    width: 50%;
+    background-color: #ebcd3660;
+    border: black solid 2px;
+    height: 250px;
+    text-align: center;
+}
+h1{
+    margin : 30px 0 30px 0;
+}
+
+section > h2{
+    margin: 20px;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+article > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+article{
+    margin: 10px;
+    border: solid 2px black;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside{
+    margin : 10px 0 10px 0;
+}
 
 .Button-a{
     display: inline-block;
@@ -61,6 +114,7 @@ align-items: center;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 #contatos h2{
